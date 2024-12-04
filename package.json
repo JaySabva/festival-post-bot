@@ -2,11 +2,15 @@
   "name": "festival-post-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^1.6.0",
+    "sharp": "^0.33.5"
+  }
 }
